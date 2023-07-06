@@ -1,6 +1,7 @@
 package massage.studio.entity;
 
 import jakarta.persistence.CascadeType;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -23,6 +24,7 @@ public class Therapist {
 	private String therapistLastName;
 	private String therapistPhone;
 	private String therapistRank;
+
 	
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude

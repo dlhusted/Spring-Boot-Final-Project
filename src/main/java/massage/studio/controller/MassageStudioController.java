@@ -24,7 +24,7 @@ import massage.studio.controller.model.MassageStudioData.MassageStudioTherapist;
 import massage.studio.controller.model.TherapistData;
 import massage.studio.service.CustomerService;
 import massage.studio.service.MassageStudioService;
-import massage.studio.service.TherapistService;
+import massage.studio.service.TherapistService; 
 
 @RestController
 @RequestMapping("/massage_studio")

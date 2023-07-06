@@ -197,7 +197,6 @@ public class MassageStudioService {
 		massageStudioDao.delete(massageStudio);
 	}
 	
-	//retrieve all therapists associated with specific massageStudioId
 
 
 
