@@ -1,0 +1,10 @@
+spring:
+   datasource:
+      username: massage_studio
+      password: massage_studio
+      url: jdbc:mysql://localhost:3306/massage_studio
+      
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true   
