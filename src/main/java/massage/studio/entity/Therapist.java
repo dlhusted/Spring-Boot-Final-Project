@@ -31,5 +31,14 @@ public class Therapist {
 	@ManyToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "massage_studio_id")
 	MassageStudio massageStudio;
+
+
+//	public Long getMassageStudioId() {
+//		return massageStudio.getMassageStudioId();
+//	}
+	
+//	public Long getMassageStudioId(MassageStudio massageStudio) {
+//		return massageStudio.getMassageStudioId();
+//}
 	
 }

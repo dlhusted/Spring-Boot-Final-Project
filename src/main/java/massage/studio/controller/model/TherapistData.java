@@ -4,7 +4,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import massage.studio.entity.MassageStudio;
 import massage.studio.entity.Therapist;
-
 @Data
 @NoArgsConstructor
 public class TherapistData {
@@ -15,13 +14,23 @@ public class TherapistData {
 	private String therapistRank;
 	MassageStudio massageStudio;
 	
+//	private MassageStudio massageStudio;
+//	Long massageStudioId = TherapistData.getMassageStudioId(massageStudio);
+	
+	
 	public TherapistData(Therapist therapist) {
 		therapistId = therapist.getTherapistId();
 		therapistFirstName = therapist.getTherapistFirstName();
 		therapistLastName = therapist.getTherapistLastName();
 		therapistPhone = therapist.getTherapistPhone();
 		therapistRank = therapist.getTherapistRank();
-	}
+	//	massageStudioId = therapist.getMassageStudioId(massageStudio);
+		}
+	
+
+
+
+
 	
 
 }
